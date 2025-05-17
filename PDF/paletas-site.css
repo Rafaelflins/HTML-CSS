@@ -1,0 +1,37 @@
+
+:root {
+  /* Paleta Monocromática */
+  --mono-1: #3C4C5A;
+  --mono-2: #5A6A79;
+  --mono-3: #2A3945;
+  --mono-4: #A2AAB0;
+  --mono-5: #1C1F23;
+
+  /* Paleta Análoga */
+  --analog-1: #3C4C5A;
+  --analog-2: #2E3A59;
+  --analog-3: #2F4E68;
+  --analog-4: #5D6F7F;
+  --analog-5: #3A5A60;
+
+  /* Paleta Complementar */
+  --comp-1: #3C4C5A;
+  --comp-2: #5A4B3C;
+  --comp-3: #A69F97;
+  --comp-4: #D6D9DC;
+  --comp-5: #1A1C1F;
+
+  /* Paleta Triádica */
+  --triad-1: #3C4C5A;
+  --triad-2: #5A3C4C;
+  --triad-3: #4C5A3C;
+  --triad-4: #C0C5C9;
+  --triad-5: #121416;
+
+  /* Paleta Composta */
+  --composite-1: #3C4C5A;
+  --composite-2: #3C5A55;
+  --composite-3: #5A3C48;
+  --composite-4: #E1E4E7;
+  --composite-5: #2B3B45;
+}

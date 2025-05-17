@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left, rgb(104, 104, 235), rgb(71, 71, 138));
+        }
+        header{
+            background-color: white;
+            padding: 0.5px;
+            margin: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        header>h1{
+            margin:2px;
+        }
+        main{
+            background-color: white;
+            padding: 1.5px;
+            margin: 10px;
+            border-radius: 20px;
+            text-align: justify;
+        }
+        footer{
+            background-color: rgb(89, 28, 146);
+            color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 0.1px;
+            border-radius: 20px;
+             box-shadow: 1px 6px 10px rgba(37, 12, 61, 0.123);
+        }
+        footer >p{
+            margin: 0px;
+        }
+        nav{
+            background-color: blueviolet;
+           padding: 5px;
+           border-radius: 20px;
+           text-align: left;
+           text-indent: 16px;
+           box-shadow: 1px 6px 10px rgba(37, 12, 61, 0.226);
+        }
+        nav >a{
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+            margin-right: 10px;
+
+        }
+        nav >:hover{
+            text-decoration: underline;
+            color:black
+        }
+        aside{
+            text-align: right;
+        }
+        p{
+            text-indent: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu site</h1>
+    <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+    </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia do dia</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quaerat quo dolor nobis magnam delectus voluptates aliquid, facere ut eum numquam provident. Officiis inventore illo nisi vel nemo perspiciatis harum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati eaque consequatur fugiat iure repellat vitae eveniet natus, libero animi nulla, blanditiis molestias minima itaque odio quam similique magnam quod.</p>
+                <aside>
+                    <p>Escrito por Fulano de Tal 15 de maio de 2025.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rafael Lins</p>
+    </footer>
+</body>
+</html>
