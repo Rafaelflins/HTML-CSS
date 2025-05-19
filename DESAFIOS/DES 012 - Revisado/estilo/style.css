@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"titulo";
+    src: url(../fonte/xilosa_.ttf);
+}
+
+:root{
+    --font01: "titulo", Arial, Helvetica, sans-serif;
+    --font02: Verdana, Geneva, Tahoma, sans-serif
+}
+
+*/{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: var(--font01);
+    text-align: center;
+    margin: -10px;
+}
+
+header h1{
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 10vw;
+    font-variant-caps: small-caps;
+}
+
+header p{
+    padding-bottom: 50px;
+    font-variant-caps: small-caps;
+    font-size: 1.5em;
+}
+
+header>p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header>p>a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
+    font-family: var(--font02);
+    line-height: 1.5em;
+}
+
+section.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+    margin: -10px;
+}
+
+section#img01{
+    background-image: url(../imagens/imagem01.jpg);
+}
+
+section#img02{
+    background-image: url(../imagens/imagem02.jpg);
+}
+
+section.imagem>p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    padding: 20px;
+    border-radius: 0px 65px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: -10px;
+}
+
+footer>p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer>p>a:hover{
+    text-decoration: underline;
+}
+
